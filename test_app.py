@@ -8,7 +8,7 @@ class TestMyApplication(unittest.TestCase):
     # Every test function name MUST start with the prefix "test_"
     def test_application_output(self):
         result = get_message()
-        self.assertEqual(result, "Expected Output")
+        self.assertEqual(result, "Hello from Windows Jenkins!")
 
 if __name__ == '__main__':
     unittest.main()
