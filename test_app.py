@@ -9,6 +9,6 @@ class TestMyApplication(unittest.TestCase):
     def test_application_output(self):
         result = get_message()
         self.assertEqual(result, "Hello from Windows Jenkins!")
-
+#testing
 if __name__ == '__main__':
     unittest.main()
